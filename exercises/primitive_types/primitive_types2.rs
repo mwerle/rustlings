@@ -2,7 +2,6 @@
 // Fill in the rest of the line that has code missing!
 // No hints, there's no tricks, just get used to typing these :)
 
-// I AM NOT DONE
 
 fn main() {
     // Characters (`char`)
@@ -18,9 +17,16 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    //let // Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
+    // MW : In vim, type Ctrl-v u <hex code> to insert unicode characters
+    let your_character = 'Ü';
+    let your_character = '9';
+    let your_character = 'ß';
+    let your_character = '%';
+    let your_character = '¿';
+    let your_character = '✓';
     if your_character.is_alphabetic() {
         println!("Alphabetical!");
     } else if your_character.is_numeric() {
