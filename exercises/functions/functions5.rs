@@ -1,7 +1,10 @@
 // functions5.rs
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+// MW : functions return the value of the last expression or statement; or explicitly with 'return'
+// -> an expression returns its result
+// -> a statement returns () (ie; void)
+
 
 fn main() {
     let answer = square(3);
@@ -9,5 +12,7 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    //num * num;
+    //num * num
+    return num * num;
 }
