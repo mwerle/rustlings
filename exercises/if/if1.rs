@@ -1,13 +1,27 @@
 // if1.rs
 // Execute `rustlings hint if1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
     // - additional variables
+    
+    /*
+    if( a > b ) {
+        return a;
+    }
+    return b;
+    */
+
+    // The value of the if expression is the value of each block; but to return a value,
+    // the 'else' is not optional.
+    // Single line (emulate ternary operator): let max_value = if( a > b ) {a} else {b}
+    if a > b { 
+        a
+    } else {
+        b
+    }
 }
 
 // Don't mind this for now :)
